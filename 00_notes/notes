@@ -1,0 +1,19 @@
+
+---- tepmlates -----
+saves typing, space, 
+c++ you can deifne a function template using a generic type
+
+function definition:
+template<typname T>
+
+T maxvalue(const t)
+
+takes T& as the arguments
+
+could call 2 integers: maxValue(1, 2);
+or could call 2 char: maxValue('a', 'b');
+the two can be compared using the > operator (operator overloading)
+
+can put multiple in the same parameters : <typname t1, typname t2, typname t3>
+
+limitations: they must be the same type!!

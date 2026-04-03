@@ -1,0 +1,37 @@
+ 
+ cout << fleet[0].model
+    * prints the model of the first plane in the vector of planes called fleet
+
+to change the capacity of the second plane to 186
+    fleet[1].capacity = 186; 
+    - would only work if its public, its not, then we would need a set method
+
+to create an array of 3 planes:
+Plane fleet[3];
+
+
+constant member functions:
+ - cannot change the value of any data feilds in the class
+ - double Area getA
+
+ void f(Count& C){
+    cout << c.getcount();
+ }
+
+ creates a function out side of the class (maybe the main) but accepts values form the class
+
+ - ensure that there is conisent use of constant definition!!
+
+ Instance member/ instance functions:
+    * members or functions that belong to the class 
+    * belongs to a particular object
+    * not shared among objects of the same class
+    * CAN access a static varibale
+
+
+Static Members:
+ * shared by all members of the class
+ * CANNOT access instance members, the object has to exist 
+ * can be accessed without creating objects. doesnt need an object
+ to create a static function use:     ClassName::functionName (arguments)
+        use scope resolution operator to use without creating object 
